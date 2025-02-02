@@ -51,7 +51,7 @@ export default function ParaphraseTool() {
         </h2>
 
         {/* Main Content */}
-        <div className="grid md:grid-cols-2 gap-4 border rounded-lg p-4 bg-white shadow-sm">
+        <div className="grid md:grid-cols-2 gap-4 border rounded-lg p-4 bg-zinc-700 shadow-sm">
           {/* Input Section */}
           <div className="space-y-2">
             <div className="flex justify-between">
