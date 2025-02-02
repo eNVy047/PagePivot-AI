@@ -1,5 +1,6 @@
-import { Button } from '@/components/ui/button'
-import {  BookOpenText, BookUp2 } from 'lucide-react'
+import CreateBookPromptDialog from '@/components/Dialogs/CreateBookPromptDialog'
+import UploadPdfDialog from '@/components/Dialogs/UploadPdfDialog'
+
 import React from 'react'
 
 const dashboard = () => {
@@ -7,8 +8,9 @@ const dashboard = () => {
     <div className=''>
       <div>
       <div className='flex space-x-3'>
-        <Button><BookOpenText />  Write Book</Button>
-        <Button><BookUp2 />  Chat with PDF</Button>
+        <CreateBookPromptDialog />
+        <UploadPdfDialog />
+      
       </div>
       </div>
     </div>

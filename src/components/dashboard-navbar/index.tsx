@@ -6,6 +6,7 @@ import Link from "next/link";
 import { UserButton } from "@clerk/nextjs";
 import { Menu, Gem } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import SubscriptionCard from "../Dialogs/subscriptionCard";
 
 type NavbarProps = {
   onToggleSidebar: () => void;
@@ -36,9 +37,11 @@ export default function Navbar({ onToggleSidebar, isMobile }: NavbarProps) {
 
         <div className="flex items-center gap-4">
           {isMobile && (
-            <Button variant="ghost"  className="text-slate-800">
+            <SubscriptionCard>
+              <Button variant="ghost"  className="text-slate-800">
               <Gem className="h-6 w-6" />Upgrade Now
             </Button>
+            </SubscriptionCard>
           )}
           <UserButton afterSignOutUrl="/" />
         </div>

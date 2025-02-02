@@ -9,6 +9,7 @@ import { Progress } from "@/components/ui/progress";
 import { Button } from "@/components/ui/button";
 import { UserButton, useUser } from "@clerk/nextjs";
 import { SignOutButton } from '@clerk/nextjs'
+import SubscriptionCard from "../Dialogs/subscriptionCard";
 
 const SideBar = ({ isMobile }: { isMobile: boolean }) => {
   const { user } = useUser();
@@ -55,6 +56,7 @@ const SideBar = ({ isMobile }: { isMobile: boolean }) => {
               <Progress value={40} className="h-2 bg-slate-600" />
               <p className="text-sm mt-2 text-slate-300">2/5 PDFs uploaded</p>
             </div>
+            <SubscriptionCard>
             <Button
               variant="outline"
               className="w-full gap-2 bg-slate-700 text-white hover:bg-slate-600"
@@ -62,6 +64,7 @@ const SideBar = ({ isMobile }: { isMobile: boolean }) => {
               <Gem className="h-5 w-5" />
               Upgrade Plan
             </Button>
+            </SubscriptionCard>
           </div>
         </>
       ) : (
