@@ -1,4 +1,5 @@
-import CreateBookPromptDialog from '@/components/Dialogs/CreateBookPromptDialog'
+
+import { CreateBookPromptDialog } from '@/components/Dialogs/CreateBookPromptDialog'
 import UploadPdfDialog from '@/components/Dialogs/UploadPdfDialog'
 
 import React from 'react'
