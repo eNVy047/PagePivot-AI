@@ -25,12 +25,9 @@ export default function RootLayout({
       <html lang="en" className="dark">
         <head>
           {/* ✅ Move script inside <head> */}
-          <Script
-            strategy="afterInteractive"
-            async
-            src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2033131479941337"
-            crossOrigin="anonymous"
-          />
+          
+          <Script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2033131479941337"
+     crossorigin="anonymous" / >
         </head>
         <body className={`${inter.className} bg-background text-foreground antialiased`}>
           <Providers>
