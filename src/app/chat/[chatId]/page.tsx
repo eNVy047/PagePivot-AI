@@ -12,7 +12,7 @@ const ChatPage = () => {
         {/* chat sidebar */}
        
         <div className="max-h-screen p-4 oveflow-scroll flex-[5]">
-          <PDFViewer pdf_url={ ""} />
+          <PDFViewer pdf_url={"https://morth.nic.in/sites/default/files/dd12-13_0.pdf"} />
         </div>
         {/* chat component */}
         <div className="flex-[3] border-l-4 border-l-slate-200">
