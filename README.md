@@ -1,36 +1,96 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# PagePivot AI ✨
 
-## Getting Started
+PagePivot AI is a **Next.js** web application powered by **OpenAI**, designed to help you **chat with your PDFs**, **transcribe content**, **paraphrase text**, and even **write a book** with AI assistance. Whether you're a student, researcher, or writer — this app is your smart companion for understanding and transforming document content in seconds.
 
-First, run the development server:
 
+<p align="center">
+  <a href="https://www.buymeacoffee.com/narayanverma" target="_blank">
+    <img src="https://img.shields.io/badge/-Buy%20me%20a%20coffee-FFDD00?logo=buy-me-a-coffee&logoColor=black&style=for-the-badge" alt="Buy Me A Coffee" />
+  </a>
+</p>
+
+
+🔗 **Live Demo**: Coming soon  
+📂 **GitHub**: [PagePivot-AI](https://github.com/eNVy047/PagePivot-AI.git)
+
+---
+
+## 🚀 Features
+- 💬 Chat with your PDF
+- ✍️ Paraphrase selected sections
+- 🧠 Summarize content instantly
+- 📚 Assist in writing books or long-form content
+- 🎙️ Transcribe audio to text (Coming soon)
+
+---
+
+## 🛠️ Tech Stack
+- [Next.js](https://nextjs.org) with `create-next-app`
+- [OpenAI GPT](https://platform.openai.com/)
+- [LangChain](https://www.langchain.com/)
+- Hosted on [Vercel](https://vercel.com)
+
+---
+
+## 🧑‍💻 Getting Started
+
+First, clone the repository:
+```bash
+git clone https://github.com/eNVy047/PagePivot-AI.git
+cd PagePivot-AI
+```
+
+Install dependencies:
+```bash
+npm install
+# or
+yarn install
+```
+
+Run the development server:
 ```bash
 npm run dev
 # or
 yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Visit [http://localhost:3000](http://localhost:3000) to view the app.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 📁 File Structure
+- `app/page.tsx` – Main interface
+- `components/` – UI components
+- `utils/` – Helper functions (PDF parsing, paraphrasing, etc.)
+- `public/` – Static assets
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
+## 🌍 Socials & Support
+<p align="left">
+  <a href="mailto:narayan7154@gmail.com">
+    <img align="center" src="https://img.shields.io/badge/-Email-D14836?logo=gmail&logoColor=white&style=flat" />
+  </a>
+  <a href="https://www.linkedin.com/in/narayanverma/" target="_blank">
+    <img align="center" src="https://img.shields.io/badge/-LinkedIn-0077B5?logo=linkedin&style=flat" />
+  </a>
+  <a href="https://www.instagram.com/narayan_.v/" target="_blank">
+    <img align="center" src="https://img.shields.io/badge/-Instagram-E4405F?logo=instagram&logoColor=white&style=flat" />
+  </a>
+  <a href="https://narayanverma.vercel.app" target="_blank">
+    <img align="center" src="https://img.shields.io/badge/-Portfolio-24292E?logo=githubpages&style=flat" />
+  </a>
+</p>
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### ☕ Support Me
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+If you like my work and want to support me, you can buy me a coffee!  
+[![Buy Me a Coffee](https://img.shields.io/badge/-Buy%20me%20a%20coffee-FFDD00?logo=buy-me-a-coffee&logoColor=black&style=flat)](https://www.buymeacoffee.com/narayanverma)
 
-## Deploy on Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Feel free to fork, star ⭐, and contribute to this project. PRs are welcome!
+
+> "Let AI take care of the heavy lifting, so you can focus on what really matters — creativity." ✨
+
